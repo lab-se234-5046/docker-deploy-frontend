@@ -1,0 +1,6 @@
+version: '3.3'
+service:
+    frontend:
+        img: worabrave/234-deploylab-frontend:latest
+        ports: 
+            - "8086:80"
