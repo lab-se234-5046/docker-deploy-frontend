@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  frontend:
+    container_name: frontend_prod
+    image: worabrave/234-deploylab-frontend-prod:latest
+    ports:
+      - "9999:80"
